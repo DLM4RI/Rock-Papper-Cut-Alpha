@@ -1,19 +1,20 @@
 # # 🪨✂️📄 Piedra, Papel o Tijera — Versión Pre-Alpha
 
 Proyecto en desarrollo del clásico juego **Piedra, Papel o Tijera**, creado con **JavaScript puro**.  
-Esta es una **versión pre-alpha**, enfocada en probar la lógica básica del juego y el sistema de elección aleatoria.
+# # actualizacion reciente 21/10/2025 22:56 
+enfocada en mejorar la logica y estilo visual (mas dinamico)
 
 ## 🚧 Estado del proyecto
-🔹 **Fase:** Pre-Alpha  
-🔹 **Objetivo actual:** Depurar la lógica de comparación entre jugador y computadora.  
+🔹 **Fase:** Alpha  
+🔹 **Objetivo actual:** Mejorra grafica  
 🔹 **Próximos pasos:**
-- Agregar interfaz gráfica simple (HTML + CSS).
-- Mostrar resultados directamente en pantalla, no solo en consola.
+- Sistema de puntuacion
+- (coming soon...) Sistema 1v1 
 
-## 🧠 Características
-- Elección aleatoria de la computadora.
-- Comparación básica entre jugadas.
-- Sistema de mensajes en consola.
+## 🧠 Características de la version
+- Cambios al estilo visual
+- Creacion de boton de reinicio del juego
+- mejora en la logica de porgramacion y optimizacion del codigo Js
 
 ## 🛠️ Tecnologías
 - JavaScript  
@@ -24,7 +25,8 @@ Esta es una **versión pre-alpha**, enfocada en probar la lógica básica del ju
 
 ---
 
-> 💬 *Esta versión aún está en pruebas. El objetivo es mejorar la lógica antes de avanzar a la interfaz visual.*
+# # Version
+> 💬 *Alhpa 0.1*
 
 
 ![Texto alternativo](/src/imgs/Viper_Logo.png)
