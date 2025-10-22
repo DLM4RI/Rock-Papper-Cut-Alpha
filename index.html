@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,10 @@
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
 </head>
-<body class="p-2">
-    <div class="card mt-5 p-2 pb-4">
+
+<body>
+
+    <div class=".container-md mt-5 p-2 pb-4 col-12" id="fondo-bg">
         <h1 class="text-center fw-bold">
             Piedra, Papel o Tijera
         </h1>
@@ -18,7 +21,7 @@
         <div class="d-flex gap-3 justify-content-center align-items-center">
             <div class="d-flex flex-column text-center fw-bold">
 
-            
+
                 <div>
                     <p>
                         Usuario
@@ -27,32 +30,34 @@
                 <div class="pantalla_1 pantalla">
                     <div id="pantalla_User" class="icon_card_1 d-flex flex-column gap-3 movimiento">
                         <div>
-                            <i class='bx-cut'></i> 
+                            <i class='bx-cut'></i>
                         </div>
                         <div>
-                            <i class='bxrd  bxs-gem'  style='color:#ffffff'></i> 
+                            <i class='bxrd  bxs-gem' style='color:#ffffff'></i>
                         </div>
                         <div>
-                            <i class='bxrd  bxs-newspaper'  style='color:#ffffff'></i>                     </div>
+                            <i class='bxrd  bxs-newspaper' style='color:#ffffff'></i>
                         </div>
+                    </div>
                 </div>
             </div>
             <div class="d-flex flex-column text-center fw-bold">
-                 <div>
+                <div>
                     <p>
                         PC
                     </p>
                 </div>
                 <div class="pantalla_2 pantalla">
-                    <div id="pantalla_PC" class="icon_card_2 movimiento pantalla_pc" >
+                    <div id="pantalla_PC" class="icon_card_2 movimiento pantalla_pc">
                         <div>
-                            <i class='bx-cut'></i> 
+                            <i class='bx-cut'></i>
                         </div>
                         <div>
-                            <i class='bxrd  bxs-gem'  style='color:#ffffff'></i> 
+                            <i class='bxrd  bxs-gem' style='color:#ffffff'></i>
                         </div>
                         <div>
-                            <i class='bxrd  bxs-newspaper'  style='color:#ffffff'></i>                     </div>
+                            <i class='bxrd  bxs-newspaper' style='color:#ffffff'></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,21 +66,28 @@
     <div>
         <hr>
         <div>
-            <p class="text-center">
+            <p class="text-center fw-bold" id="msg">
                 Elige tu opcion y prueba tu suerte...o ¿habilidad?
             </p>
         </div>
         <div class="d-flex justify-content-center align-items-center gap-3">
-            <button onclick="ejecucion('piedra')"class="btn btn-primary btn-lg">Piedra</button>
-            <button onclick="ejecucion('Papel')" class="btn btn-success btn-lg">Papel</button>
-            <button onclick="ejecucion('Tijeras')"class="btn btn-danger btn-lg">Tijera</button>
-        </div>
-        <div class="text-center d-flex justify-content-center align-items-center">
-            <button onclick="juego()" style="color: white; background-color: green; margin-top: 20px; " onclick="ejecucion('Tijeras')"class="btn btn-lg ">Jugar</button>
+            <button onclick="ejecucion('piedra')" class="btn btn-lg btn_PPT" style="background-color: rgb(245, 147, 0); color: white;">Piedra</button>
+            <button onclick="ejecucion('papel')" class="btn btn-success btn-lg btn_PPT">Papel</button>
+            <button onclick="ejecucion('tijeras')" class="btn btn-danger btn-lg btn_PPT">Tijera</button>
         </div>
     </div>
+    
+    <div class="col- row-1 d-flex justify-content-center align-items-center text-center flex-column ">
+        <button id="iniciar" onclick="juego()" style="color: white; background-color: green; margin-top: 20px; " class="btn btn-lg col-5">Jugar</button>
+        <div id="boton_reinicio">
+        
+        </div>
+    </div>
+        
 
-    <script src="/src/script.js" ></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js" ></script>
+
+    <script src="/src/script.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
